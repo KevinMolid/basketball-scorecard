@@ -1,0 +1,122 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+  color: white;
+  background-color: #222;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.game-container {
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#period-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.period-h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#period-field {
+  width: 120px;
+}
+
+#period-p {
+  color: #1cce57;
+  font-size: 100px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  margin-bottom: -2px;
+  margin-top: auto;
+}
+
+.team-h3 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.team-name {
+  color: #9CA3AF;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.team-name textarea:focus, input:focus{
+  outline: 1px solid #9CA3AF;
+}
+
+.score-wrapper {
+  color: #FBBF24;
+  background-color: black;
+  width: 200px;
+  height: 120px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.score-p {
+  font-size: 100px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  margin-bottom: -2px;
+  margin-top: auto;
+}
+
+.btn-wrapper {
+  margin-top: 10px;
+}
+
+.plus-btn {
+  color: #9CA3AF;
+  font-size: 18px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  line-height: 46px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #9CA3AF;
+  border-radius: 5px;
+  height: 45px;
+  width: 55px;
+  margin: 0 5px;
+}
+
+.plus-btn:hover {
+  color: #D1D5DB;
+  border: 1px solid #D1D5DB;
+}
+
+.plus-btn:active {
+  color: #F3F4F6;
+  border: 1px solid #F3F4F6;
+}
+
+.extras-container {
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#wide-btn {
+  width: auto;
+  padding: 0 25px;
+}

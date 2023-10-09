@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="game-container">
+
+      <div class="team-wrapper">
+        <h3 class="team-h3">HOME</h3>
+        <input type="text" class="team-name" id="home-name" placeholder="Team Name">
+        <div class="score-wrapper">
+          <p class="score-p" id="home-score">0</p>
+        </div>
+        <div class="btn-wrapper">
+          <button class="plus-btn" onclick="plusHome(1)">+1</button>
+          <button class="plus-btn" onclick="plusHome(2)">+2</button>
+          <button class="plus-btn" onclick="plusHome(3)">+3</button>
+        </div>
+      </div>
+
+      <div id="period-wrapper">
+        <h3 class="period-h3">PERIOD</h3>
+        <div class="score-wrapper" id="period-field">
+          <p class="score-p" id="period-p">1</p>
+        </div>
+        <div class="btn-wrapper">
+          <button class="plus-btn" onclick="plusPeriod()">+</button>
+        </div>
+      </div>
+
+      <div class="team-wrapper">
+        <h3 class="team-h3">AWAY</h3>
+        <input type="text" class="team-name" id="guest-name" placeholder="Team Name">
+        <div class="score-wrapper">
+          <p class="score-p" id="guest-score">0</p>
+        </div>
+        <div class="btn-wrapper">
+          <button class="plus-btn" onclick="plusGuest(1)">+1</button>
+          <button class="plus-btn" onclick="plusGuest(2)">+2</button>
+          <button class="plus-btn" onclick="plusGuest(3)">+3</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="extras-container">
+      <button class="plus-btn" id="wide-btn" onclick="resetGame()">Reset Game</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+
+</html>
